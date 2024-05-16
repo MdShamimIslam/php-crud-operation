@@ -42,6 +42,7 @@ $row = mysqli_fetch_array($query)
     
     <!-- form start -->
   <div class="card shrink-0 w-full max-w-sm mx-auto mt-24 shadow-2xl bg-base-100">
+  <h3 class="text-2xl font-bold text-center mt-6 text-pink-400"> Update Data</h3>
     <form class="card-body" method="POST">
       <div class="form-control">
         <label class="label">
@@ -66,7 +67,7 @@ $row = mysqli_fetch_array($query)
       </div>
     </form>
     <div class="flex w-full justify-center mb-6">
-    <a href="insert.php"><button class="btn  btn-success btn-sm">Go Back</button></a>
+    <a href="insert.php"><button class="btn  bg-black-500 text-white btn-sm">Go Back</button></a>
     </div>
   </div>
   <!-- form end -->

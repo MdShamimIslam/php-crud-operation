@@ -32,7 +32,9 @@ if(isset($_POST['submit'])){
 </head>
 <body>
   <!-- form start -->
-  <div class="card shrink-0 w-full max-w-sm mx-auto mt-24 shadow-2xl bg-base-100">
+ 
+  <div class="card shrink-0 w-full max-w-sm mx-auto mt-6 shadow-2xl bg-base-100">
+  <h3 class="text-2xl font-bold text-center mt-6 text-yellow-600"> Insert Data</h3>
     <form class="card-body" method="POST">
       <div class="form-control">
         <label class="label">
@@ -60,7 +62,8 @@ if(isset($_POST['submit'])){
   <!-- form end -->
 
 <!-- Table -->
-<div class="overflow-x-auto w-1/2 mx-auto mt-16">
+<div class="overflow-x-auto w-1/2 mx-auto ">
+  <h3 class="text-2xl font-bold text-center mt-12 mb-8  text-purple-600">Get All Data</h3>
   <table class="table">
     <!-- head -->
     <thead>
